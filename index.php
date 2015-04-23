@@ -2,6 +2,9 @@
 <head>
 	<title>To-Do List 2.0</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
 </head>
 <body>
 	<div class="wrap">
@@ -11,7 +14,7 @@
 				$mysqli = new mysqli('localhost', 'root', 'root', 'todo2');
 				$query = "SELECT * FROM tasks ORDER BY date ASC, time ASC"; //'*' means all
 				if($result = $mysqli->query($query)){
-					$numrows = $result->num_rows:
+					$numrows = $result->num_rows;
 					if ($numrows>0) {
 						while($row = $result->fetch_assoc()){
 							$task_id = $row['id'];
