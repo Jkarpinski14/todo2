@@ -13,7 +13,7 @@
 	if($result = $mysqli->query($query)){
 		while($row = $result->fetch_assoc()){
 			$task_id = $row['id'];
-			$task_name = row['task'];
+			$task_name = $row['task'];
 		}
 	}
 
