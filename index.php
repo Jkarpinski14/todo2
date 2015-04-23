@@ -5,6 +5,9 @@
 
 </head>
 <body>
+	<h1>
+	<p class="header"> Get Shit Done </p>
+	</h1>
 	<div class="wrap">
 		<div class="task-list">
 			<ul>
@@ -28,8 +31,9 @@
 				?>
 			</ul>
 		</div>
+		<br>
 	<form class="add-new-task" autocomplete="off">
-		<input type="text" name="new-task" placeholder="Add new item..."/>
+		<input type="text" name="new-task" placeholder="Put item here..."/>
 	</form>
 	</div>	
 </body>

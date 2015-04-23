@@ -3,8 +3,13 @@
 
 body{
 	font: normal 14px 'Open Sans', Arial, sans-serif;
-	color: #999;
-	background: #f1f1f1;
+	color: red;
+	background: black;
+}
+
+.header{
+	color: white;
+	text-align: center;
 }
 
 .wrap{
@@ -19,4 +24,10 @@ body{
 	box-shadow: 2px 2px 2px #ddd;
 	margin-top: 40px;
 	padding: 22px 6%;
+}
+
+.add-new-task{
+	color: red;
+	min-height: 100px;
+	padding: 40px 29%;
 }
