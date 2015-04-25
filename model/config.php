@@ -4,13 +4,13 @@
 	session_regenerate_id(true);
 	/*keeps the id constant throughtout the entire session everytime the file is called upon*/
 
-	$path = "/Karpinski-blog/";
+	$path = "/todo2/";
 	/*Requires the path an its location*/
 
 	$host = "localhost";
 	$username = "root";
 	$password = "root";
-	$database = "blog_db";
+	$database = "todo2";
 
 	if(!isset($_SESSION["connection"])) {
 		$connection = new Database($host, $username, $password, $database);
