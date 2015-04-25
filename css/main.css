@@ -31,3 +31,9 @@ body{
 	min-height: 100px;
 	padding: 40px 29%;
 }
+
+.links{
+	background: white;
+	text-align: center;
+	width: 300px;
+}

@@ -4,7 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 </head>
-<body>
+<body style="background-image: url(http://thesoundclique.com/wp-content/uploads/2015/01/Ultra_Music_Festival_2013-39.jpg)">
 	<h1>
 	<p class="header"> Get Shit Done </p>
 	</h1>
@@ -35,6 +35,13 @@
 	<form class="add-new-task" autocomplete="off">
 		<input type="text" name="new-task" placeholder="Put item here..."/>
 	</form>
+	</div>
+
+	<div class="links">
+		<a href="/todo2/view/register-form.php">Register</a>
+		<br>
+		<br>
+		<a href="/todo2/view/login-form.php">Login</a>
 	</div>	
 </body>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
