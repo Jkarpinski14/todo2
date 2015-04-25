@@ -18,3 +18,5 @@
     	echo "<p>Invalid username and password</p>";
     }
 ?>
+<br>
+<a href="/../todo2/index.php">Go to To-do list</a>

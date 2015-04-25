@@ -18,3 +18,5 @@
     	 echo "<p>" . $_SESSION["connection"]->error. "</p>";
     }
 ?>
+<br>
+<a href="/../todo2/index.php">Go to To-do list</a>
