@@ -19,7 +19,7 @@ body{
 
 .task-list{
 	width: 88%;
-	min-height: 300px;
+	min-height: 275px;
 	background: #fff;
 	box-shadow: 2px 2px 2px #ddd;
 	margin-top: 40px;
@@ -35,5 +35,11 @@ body{
 .links{
 	background: white;
 	text-align: center;
-	width: 300px;
+	width: 150px;
+	margin: 4px;
+	margin-left: 580px;
+}
+#button{
+	margin-left: 550px;
+	width: 200px;
 }

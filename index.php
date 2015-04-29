@@ -2,6 +2,9 @@
 <head>
 	<title>To-Do List 2.0</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
 </head>
 <body style="background-image: url(http://thesoundclique.com/wp-content/uploads/2015/01/Ultra_Music_Festival_2013-39.jpg)">
@@ -37,14 +40,21 @@
 	</form>
 	</div>
 
-	<div class="links">
-		<a href="/todo2/view/register-form.php">Register</a>
-		<br>
-		<br>
-		<a href="/todo2/view/login-form.php">Login</a>
+	<button class="btn btn-primary" id="button" data-toggle="modal" data-target=".bs-example-modal-lg">Register/Login</button>
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	  	<div class="modal-dialog modal-lg">
+    		<div class="modal-content">
+     		 	<a href="/todo2/view/register-form.php">Register</a>
+				<br>
+				<br>
+				<a href="/todo2/view/login-form.php">Login</a>
+				<br>
+    		</div>
+  		</div>
 	</div>	
 </body>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script>
 	add_task(); //calling the add task function
 
